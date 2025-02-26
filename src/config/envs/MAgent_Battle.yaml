@@ -1,0 +1,16 @@
+env: "MAgent_Battle"
+
+env_args:
+  map_name: battle_view7
+  max_cycles: 200 # params in marllib: https://github.com/Replicable-MARL/MARLlib/blob/368c6173577d0f9c0ad70fb5b4b6afa12c864c15/marllib/envs/base_env/config/magent.yaml#L28
+  pretrained_ckpt: null
+  global_reward: False
+  minimap_mode: True
+
+test_greedy: True
+test_nepisode: 100
+test_interval: 50000
+log_interval: 50000
+runner_log_interval: 10000
+learner_log_interval: 10000
+t_max: 5050000

@@ -1,0 +1,8 @@
+exp_name: ExpoComm_Battle40
+run_name: ExpoComm_Battle40_s0
+
+seed: 0
+
+env_args:
+  map_size: 40 # 64 + 64 agents
+  pretrained_ckpt: "battle.pt"
