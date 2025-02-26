@@ -24,7 +24,6 @@ cd ..
 
 ```bash
 pip install git+https://github.com/moratodpg/imp_marl.git
-cd ..
 ```
 
 **Install MAgent environment**
@@ -34,7 +33,6 @@ pip install magent==0.1.14
 pip install pettingzoo==1.12.0
 cp env/battle_v3_view7.py PATH_TO_YOUR_PETTINGZOO_ENV/pettingzoo/magent/
 cp env/adversarial_pursuit_view8_v3.py PATH_TO_YOUR_PETTINGZOO_ENV/pettingzoo/magent/
-cd ..
 ```
 
 To ease the environment setup, we also provide the environmental setup we used containing detailed version information in `ExpoComm_env.yaml`. 
