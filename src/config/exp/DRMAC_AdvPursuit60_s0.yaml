@@ -1,0 +1,8 @@
+exp_name: DRMAC_AdvPursuit60
+run_name: DRMAC_AdvPursuit60_s0
+
+seed: 0
+
+env_args:
+  map_size: 60 # 45 agents + 90 preys
+  pretrained_ckpt: "adv_pursuit.pt"
