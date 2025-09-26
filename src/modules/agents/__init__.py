@@ -10,8 +10,10 @@ from .ExpoComm_agent import (
     ExpoCommOContAgent,
 )
 
+from .DRMAC_agent import DRMACAgent
 
 REGISTRY["ExpoComm_static"] = ExpoCommSAgent
 REGISTRY["ExpoComm_one_peer"] = ExpoCommOAgent
 REGISTRY["ExpoComm_static_cont"] = ExpoCommSContAgent
 REGISTRY["ExpoComm_one_peer_cont"] = ExpoCommOContAgent
+REGISTRY["DRMAC"] = DRMACAgent
